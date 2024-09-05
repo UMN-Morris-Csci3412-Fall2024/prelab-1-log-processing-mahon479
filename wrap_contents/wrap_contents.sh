@@ -10,5 +10,5 @@ header_file="${header_specifier}_header.html"
 footer_file="${header_specifier}_footer.html"
 
 # Joining the contents, header, and footer into the result file
-cat $header_file $contents $footer_file > $result
+cat "$header_file" "$contents" "$footer_file" > "$result"
 
